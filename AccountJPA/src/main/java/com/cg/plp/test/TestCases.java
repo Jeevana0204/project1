@@ -224,7 +224,7 @@ public class TestCases {
 		try {
 			acc = service.printTransaction(mobile);
 			service.showBalance(acc.getMobile());
-			assertEquals("Deepraj", acc.getName());
+			assertEquals("Nikitha", acc.getName());
 		} catch (WalletException e) {
 			// TODO Auto-generated catch block
 
